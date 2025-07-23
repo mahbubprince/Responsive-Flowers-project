@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font style */
+.noto-serif-primary {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.inter-primary {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* shared style */
+.orange-clr {
+    color: #E95A08;
+}
+
+.black-clr {
+    color: black;
+}
+
+header {
+    max-width: 1140px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.des-clr {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*  nav style */
+.navbar {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-special {
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-left: 48px;
+}
+
+.home {
+    color: #252432;
+    font-weight: 600;
+}
+
+.shop {
+    color: #8987A1;
+    font-weight: 200;
+}
+
+/* banner style */
+.banner {
+    margin-top: 228px;
+    display: flex;
+}
+
+.banner-des {
+    font-size: 1.375rem;
+}
+
+.banner-head {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* plants section style */
+.plants-des {
+    font-size: 1.375rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plants-head {
+    font-size: 3.125rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.plant-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.flower-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-btn {
+    background-color: #E95A08;
+    height: 50px;
+    width: 270px;
+    color: white;
+    font-size: 1.1rem;
+    border-style: none;
+}
+
+/* mobile responsive */
+@media screen and (max-width:576px) {
+    .nav-special {
+        display: none;
+    }
+
+    .navbar {
+        margin: 16px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+
+    .banner-img {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .plant-cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+    }
+}
