@@ -87,6 +87,8 @@ header {
     font-size: 1.375rem;
 }
 
+
+
 .banner-head {
     font-size: 4rem;
     font-weight: 800;
@@ -361,6 +363,11 @@ form {
         margin-top: 30px;
     }
 
+    .banner-img img {
+        height: auto;
+        width: 100%;
+    }
+
     .plant-cards {
         grid-template-columns: repeat(2, 1fr);
         margin: 10px;
@@ -377,5 +384,10 @@ form {
 
     .card {
         grid-template-columns: 1fr;
+    }
+
+    .main-footer {
+        flex-direction: column;
+        margin-left: 10px;
     }
 }
