@@ -19,6 +19,10 @@
 }
 
 /* shared style */
+body {
+    background-color: #f5f8ff;
+}
+
 .orange-clr {
     color: #E95A08;
 }
@@ -139,6 +143,63 @@ main {
     border-style: none;
 }
 
+/*  plants lover */
+.plant-lover-img {
+    margin-right: 65px;
+}
+
+.plant-lover {
+    display: flex;
+    margin-top: 211px;
+}
+
+.plant-lover-head {
+    font-size: 3.1rem;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+
+.plant-lover-para {
+    font-size: 1.2rem;
+    margin-bottom: 22px;
+}
+
+.plant-lover-des ul {
+    margin-left: 45px;
+}
+
+.trusted-badge {
+    position: absolute;
+    margin-top: -122px;
+    margin-left: -240px;
+}
+
+/*  Latest-Deals-style */
+.Latest-Deals-head {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 134px;
+    margin-bottom: 18px;
+}
+
+.Latest-Deals-des {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.deals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.deals img {
+    width: 100%;
+    object-fit: cover;
+}
+
 /* mobile responsive */
 @media screen and (max-width:576px) {
     .nav-special {
@@ -162,5 +223,8 @@ main {
     .plant-cards {
         grid-template-columns: repeat(2, 1fr);
         margin: 10px;
-    }
+    } 
+    .plant-lover{ flex-direction: column;
+
+    }.trusted-badge{ display: none;}
 }
