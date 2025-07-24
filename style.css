@@ -373,9 +373,19 @@ form {
         margin: 10px;
     }
 
+    .plant-card img {
+        height: auto;
+        width: 100%;
+    }
+
     .plant-lover {
         flex-direction: column;
 
+    }
+
+    .lover-img img {
+        height: auto;
+        width: 100%;
     }
 
     .trusted-badge {
@@ -386,6 +396,14 @@ form {
         grid-template-columns: 1fr;
     }
 
+    .deal img {
+        height: auto;
+        width: 100%;
+    }
+    .Join-Bunch , input{
+        height: auto;
+        width: 100%;
+    }
     .main-footer {
         flex-direction: column;
         margin-left: 10px;
