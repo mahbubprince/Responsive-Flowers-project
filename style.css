@@ -189,15 +189,156 @@ main {
     margin-bottom: 120px;
 }
 
-.deals {
+.card {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
+    margin-bottom: 120px;
 }
 
-.deals img {
-    width: 100%;
-    object-fit: cover;
+
+.zabo {
+    grid-row: span 2;
+}
+
+.zabo-bright {
+    filter: brightness(60%);
+    border-radius: 15px;
+
+}
+
+.ana {
+    filter: brightness(50%);
+    border-radius: 15px;
+
+}
+
+.bloom {
+    filter: brightness(60%);
+    border-radius: 15px;
+
+
+}
+
+.dis-60 {
+    position: absolute;
+    margin-left: 71px;
+    color: white;
+    font-weight: 600;
+    margin-top: -118px;
+    font-size: 1.25rem;
+}
+
+.dis-60-btn {
+    position: absolute;
+    color: white;
+    margin-left: 120px;
+    margin-top: -97px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.dis-25 {
+    color: white;
+    font-size: 2.6rem;
+    position: absolute;
+    margin-left: 197px;
+    margin-top: -253px;
+    font-weight: 800;
+}
+
+.dis-25-btn {
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-left: 311px;
+    text-decoration: underline;
+    margin-top: -198px;
+}
+
+.dis-30 {
+    position: absolute;
+    margin-left: 71px;
+    color: white;
+    font-weight: 600;
+    margin-top: -118px;
+    font-size: 1.25rem;
+}
+
+.dis-30-btn {
+    position: absolute;
+    color: white;
+    margin-left: 120px;
+    margin-top: -97px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.Join-Bunch {
+    background-image: url(assets/news-letter-bg.png);
+    height: 533px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.Join-Bunch-head {
+    font-size: 3.1rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+form {
+
+    text-align: center;
+}
+
+.email {
+    height: 50px;
+    width: 644px;
+    padding-left: 20px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.btn {
+    height: 50px;
+    width: 186px;
+    background-color: #E95A08;
+    color: white;
+    border-style: none;
+}
+
+.main-footer-sec {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer h6 {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.main-footer li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.icon {
+    margin-right: 24px;
 }
 
 /* mobile responsive */
@@ -223,8 +364,18 @@ main {
     .plant-cards {
         grid-template-columns: repeat(2, 1fr);
         margin: 10px;
-    } 
-    .plant-lover{ flex-direction: column;
+    }
 
-    }.trusted-badge{ display: none;}
+    .plant-lover {
+        flex-direction: column;
+
+    }
+
+    .trusted-badge {
+        display: none;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+    }
 }
