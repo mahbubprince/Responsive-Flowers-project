@@ -122,28 +122,30 @@ main {
     margin: 0 auto;
 }
 
-.plant-card img{ 
-    width: 100%; height: auto;
+.plant-card img {
+    width: 100%;
+    height: auto;
 }
+
 .flower-name {
     font-size: 1.25rem;
     font-weight: 600;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
 }
 
 .price {
     font-size: 1.3rem;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 0.99rem;
 }
 
 .card-btn {
     background-color: #E95A08;
-    height: 50px;
-    width: 270px;
+    height: 3rem;
+    width: 16.875rem;
     color: white;
     font-size: 1.1rem;
     border-style: none;
@@ -151,7 +153,7 @@ main {
 
 /*  plants lover */
 .plant-lover-img {
-    margin-right: 65px;
+    margin-right: 4rem;
 }
 
 .plant-lover {
@@ -383,13 +385,17 @@ form {
 
     }
 
-    .lover-img img {
-        height: auto;
+    .card-btn {
         width: 100%;
     }
 
+
     .trusted-badge {
         display: none;
+    }
+
+    .plant-lover-img {
+        width: 100%;
     }
 
     .card {
@@ -417,6 +423,10 @@ form {
     input {
         height: auto;
         width: 100%;
+    }
+
+    .Join-Bunch {
+        background-size: cover;
     }
 
     .input {
